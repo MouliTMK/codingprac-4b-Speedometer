@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  padding: 20px;
+}
+.image {
+  width: 50%;
+}
+.heading-1 {
+  color: aliceblue;
+  font-size: 32px;
+}
+.heading-2 {
+  color: aliceblue;
+  font-size: 22px;
+}
+.para {
+  color: gray;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.acc-button {
+  background-color: #0b69ff;
+  color: aliceblue;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.break-button {
+  background-color: #94a3b8;
+  color: white;
+  border-radius: 5px;
+}
+
+.buttons {
+  cursor: pointer;
+  outline: none;
+}
